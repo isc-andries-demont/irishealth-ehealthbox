@@ -1,0 +1,12 @@
+version: "3"
+
+services: 
+  iris:
+    container_name: ehbox
+    build:
+      context: .
+    ports: 
+      - "52776:52773"
+    volumes: 
+      - ./ext:/ext
+      - ./dur:/dur

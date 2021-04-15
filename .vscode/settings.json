@@ -1,0 +1,7 @@
+{
+    "objectscript.conn": {
+        "server": "ehbox",
+        "ns": "EHBOX",
+        "active": true
+    }
+}
